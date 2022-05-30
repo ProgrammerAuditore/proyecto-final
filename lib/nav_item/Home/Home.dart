@@ -6,7 +6,19 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Text('Page Home'),
+      child: OrientationBuilder(
+        builder: (context, orientation) {
+          return GridView.count(
+            // Crea una grid con 2 columnas en modo portrait o 3 columnas en
+            // modo landscape.
+            crossAxisCount: orientation == Orientation.portrait ? 1 : 2,
+            // Genera 100 Widgets que muestran su índice en la Lista
+            children: [
+              Text("Test"),
+            ],
+          );
+        },
+      ),
     );
   }
 

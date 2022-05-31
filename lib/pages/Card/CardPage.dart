@@ -6,7 +6,182 @@ class CardPage extends StatelessWidget {
     return Container(
       height: MediaQuery.of(context).size.height,
       width: double.infinity,
-      child: DraggableScrollableSheet(
+      child: 
+      Stack(
+        children: [
+          Container(
+            margin: EdgeInsets.symmetric(horizontal: 20, vertical: 50),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: <Widget>[
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: <Widget>[
+                    Text(
+                      "\$2589.90",
+                      style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 36,
+                          fontWeight: FontWeight.w700),
+                    ),
+                    Container(
+                      child: Row(
+                        children: <Widget>[
+                          Icon(
+                            Icons.notifications,
+                            color: Colors.lightBlue[100],
+                          ),
+                          SizedBox(
+                            width: 16,
+                          ),
+                          CircleAvatar(
+                            radius: 25,
+                            backgroundColor: Colors.white,
+                            child: ClipOval(
+                              child: Image.network(
+                                'https://firebasestorage.googleapis.com/v0/b/dl-flutter-ui-challenges.appspot.com/o/img%2F6.jpg?alt=media',
+                                fit: BoxFit.contain,
+                              ),
+                            ),
+                          )
+                        ],
+                      ),
+                    )
+                  ],
+                ),
+                Text(
+                  "Available Balance",
+                  style: TextStyle(
+                      fontWeight: FontWeight.w700,
+                      fontSize: 16,
+                      color: Colors.blue[100]),
+                ),
+                SizedBox(
+                  height: 24,
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: <Widget>[
+                    Container(
+                      child: Column(
+                        children: <Widget>[
+                          Container(
+                            decoration: BoxDecoration(
+                                color: Color.fromRGBO(243, 245, 248, 1),
+                                borderRadius:
+                                    BorderRadius.all(Radius.circular(18))),
+                            child: Icon(
+                              Icons.date_range,
+                              color: Colors.blue[900],
+                              size: 30,
+                            ),
+                            padding: EdgeInsets.all(12),
+                          ),
+                          SizedBox(
+                            height: 4,
+                          ),
+                          Text(
+                            "Send",
+                            style: TextStyle(
+                                fontWeight: FontWeight.w700,
+                                fontSize: 14,
+                                color: Colors.blue[100]),
+                          ),
+                        ],
+                      ),
+                    ),
+                    Container(
+                      child: Column(
+                        children: <Widget>[
+                          Container(
+                            decoration: BoxDecoration(
+                                color: Color.fromRGBO(243, 245, 248, 1),
+                                borderRadius:
+                                    BorderRadius.all(Radius.circular(18))),
+                            child: Icon(
+                              Icons.public,
+                              color: Colors.blue[900],
+                              size: 30,
+                            ),
+                            padding: EdgeInsets.all(12),
+                          ),
+                          SizedBox(
+                            height: 4,
+                          ),
+                          Text(
+                            "Request",
+                            style: TextStyle(
+                                fontWeight: FontWeight.w700,
+                                fontSize: 14,
+                                color: Colors.blue[100]),
+                          ),
+                        ],
+                      ),
+                    ),
+                    Container(
+                      child: Column(
+                        children: <Widget>[
+                          Container(
+                            decoration: BoxDecoration(
+                                color: Color.fromRGBO(243, 245, 248, 1),
+                                borderRadius:
+                                    BorderRadius.all(Radius.circular(18))),
+                            child: Icon(
+                              Icons.attach_money,
+                              color: Colors.blue[900],
+                              size: 30,
+                            ),
+                            padding: EdgeInsets.all(12),
+                          ),
+                          SizedBox(
+                            height: 4,
+                          ),
+                          Text(
+                            "Loan",
+                            style: TextStyle(
+                                fontWeight: FontWeight.w700,
+                                fontSize: 14,
+                                color: Colors.blue[100]),
+                          ),
+                        ],
+                      ),
+                    ),
+                    Container(
+                      child: Column(
+                        children: <Widget>[
+                          Container(
+                            decoration: BoxDecoration(
+                                color: Color.fromRGBO(243, 245, 248, 1),
+                                borderRadius:
+                                    BorderRadius.all(Radius.circular(18))),
+                            child: Icon(
+                              Icons.trending_down,
+                              color: Colors.blue[900],
+                              size: 30,
+                            ),
+                            padding: EdgeInsets.all(12),
+                          ),
+                          SizedBox(
+                            height: 4,
+                          ),
+                          Text(
+                            "Topup",
+                            style: TextStyle(
+                                fontWeight: FontWeight.w700,
+                                fontSize: 14,
+                                color: Colors.blue[100]),
+                          ),
+                        ],
+                      ),
+                    )
+                  ],
+                )
+              ],
+            ),
+          ),
+        
+      // Fondo de Color Blanco
+      DraggableScrollableSheet(
         builder: (context, scrollController) {
           return Container(
             child: SingleChildScrollView(
@@ -385,6 +560,8 @@ class CardPage extends StatelessWidget {
         initialChildSize: 0.95,
         maxChildSize: 0.95,
       ),
+    ],
+    )
     );
   }
 

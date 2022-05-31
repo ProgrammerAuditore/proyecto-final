@@ -178,6 +178,8 @@ class HomePage extends StatelessWidget {
               ],
             ),
           ),
+
+          // Fondo de Color Blanco
           DraggableScrollableSheet(
             builder: (context, scrollController) {
               return Container(

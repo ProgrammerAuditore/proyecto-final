@@ -1,5 +1,6 @@
-import 'package:appfoodfast/pages/Card/componentes/DragScrollSheet.dart';
-import 'package:appfoodfast/pages/Card/componentes/PageHeader.dart';
+import 'package:appfoodfast/components/PageContent.dart';
+import 'package:appfoodfast/components/PageHeader.dart';
+import 'package:appfoodfast/pages/Card/ContentPage.dart';
 import 'package:flutter/material.dart';
 
 class CardPage extends StatelessWidget {
@@ -11,8 +12,10 @@ class CardPage extends StatelessWidget {
       child: 
       Stack(
         children: [ 
-          PageHeader(), 
-          DragScrollSheet(),
+          PageHeader(),
+          PageContent(
+            pageContent: ContentPage(),
+          )
         ],
       )
     );

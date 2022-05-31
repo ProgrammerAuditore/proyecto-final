@@ -1,4 +1,4 @@
-import 'package:appfoodfast/pages/Card/componentes/OptionPage.dart';
+import 'package:appfoodfast/components/OptionPage.dart';
 import 'package:flutter/material.dart';
 
 class PageHeader extends StatelessWidget {
@@ -70,4 +70,3 @@ class PageHeader extends StatelessWidget {
     );
   }
 }
-

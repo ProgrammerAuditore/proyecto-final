@@ -1,16 +1,11 @@
 import 'package:flutter/material.dart';
 
-class DragScrollSheet extends StatelessWidget {
-  const DragScrollSheet({Key? key}) : super(key: key);
+class ContentPage extends StatelessWidget {
+  const ContentPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return DraggableScrollableSheet(
-        builder: (context, scrollController) {
-          return Container(
-            child: SingleChildScrollView(
-              controller: scrollController,
-              child: Column(
+    return Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
                   SizedBox(
@@ -372,17 +367,6 @@ class DragScrollSheet extends StatelessWidget {
                     ),
                   )
                 ],
-              ),
-            ),
-            decoration: BoxDecoration(
-                color: Color.fromRGBO(243, 245, 248, 1),
-                borderRadius: BorderRadius.only(
-                    topRight: Radius.circular(40),
-                    topLeft: Radius.circular(40))),
-          );
-        },
-        initialChildSize: 0.95,
-        maxChildSize: 0.95,
-      );
+              );
   }
 }

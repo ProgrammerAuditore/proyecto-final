@@ -1,3 +1,4 @@
+import 'package:appfoodfast/generated/l10n.dart';
 import 'package:flutter/material.dart';
 
 class ContentPage extends StatelessWidget {
@@ -19,14 +20,14 @@ class ContentPage extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: <Widget>[
                             Text(
-                              "Your Cards",
+                              S.of(context).pageCardContentTitulo,
                               style: TextStyle(
                                   fontWeight: FontWeight.w900,
                                   fontSize: 24,
                                   color: Colors.black),
                             ),
                             Text(
-                              "2 Physical Card, and 1 Virtual Card",
+                              S.of(context).pageCardContentSubTitulo,
                               style: TextStyle(
                                   fontWeight: FontWeight.w900,
                                   fontSize: 12,
@@ -55,7 +56,7 @@ class ContentPage extends StatelessWidget {
                       children: <Widget>[
                         Container(
                           child: Text(
-                            "Physical Card",
+                            S.of(context).pageCardContentCardPhysicalTitulo,
                             style: TextStyle(
                                 fontWeight: FontWeight.w700,
                                 fontSize: 14,
@@ -79,7 +80,7 @@ class ContentPage extends StatelessWidget {
                         ),
                         Container(
                           child: Text(
-                            "Virtual Card",
+                            S.of(context).pageCardContentCardVirtualTitulo,
                             style: TextStyle(
                                 fontWeight: FontWeight.w700,
                                 fontSize: 14,
@@ -128,7 +129,7 @@ class ContentPage extends StatelessWidget {
                                 ),
                               ),
                               Text(
-                                "VISA",
+                                S.of(context).pageCardContentCardPhysicalTipo,
                                 style: TextStyle(
                                     fontStyle: FontStyle.italic,
                                     fontSize: 28,
@@ -158,7 +159,7 @@ class ContentPage extends StatelessWidget {
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: <Widget>[
                                   Text(
-                                    "CARD HOLDER",
+                                    S.of(context).pageCardContentCardPhysicalEstado,
                                     style: TextStyle(
                                         fontSize: 12,
                                         color: Colors.blue[100],
@@ -179,7 +180,7 @@ class ContentPage extends StatelessWidget {
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: <Widget>[
                                   Text(
-                                    "EXPIRES",
+                                    S.of(context).pageCardContentCardPhysicalExpires,
                                     style: TextStyle(
                                         fontSize: 12,
                                         color: Colors.blue[100],
@@ -226,7 +227,7 @@ class ContentPage extends StatelessWidget {
                   ),
                   Container(
                     child: Text(
-                      "Card Settings",
+                      S.of(context).pageCardContentCardConfig,
                       style: TextStyle(
                           fontWeight: FontWeight.w500,
                           fontSize: 20,
@@ -262,7 +263,7 @@ class ContentPage extends StatelessWidget {
                               width: 5,
                             ),
                             Text(
-                              "Contactless Payment",
+                              S.of(context).pageCardContentCardConfigConectarPagos,
                               style: TextStyle(
                                   fontWeight: FontWeight.w500,
                                   fontSize: 16,
@@ -306,7 +307,7 @@ class ContentPage extends StatelessWidget {
                               width: 16,
                             ),
                             Text(
-                              "Online Payment",
+                              S.of(context).pageCardContentCardConfigPagosEnLinea,
                               style: TextStyle(
                                   fontWeight: FontWeight.w500,
                                   fontSize: 18,
@@ -350,7 +351,7 @@ class ContentPage extends StatelessWidget {
                               width: 16,
                             ),
                             Text(
-                              "ATM Withdraws",
+                              S.of(context).pageCardContentCardConfigATM,
                               style: TextStyle(
                                   fontWeight: FontWeight.w500,
                                   fontSize: 18,

@@ -1,0 +1,42 @@
+{
+    "componentsPageHeaderTitulo": "Available Balance",
+    "componentsPageHeaderOpcPageSend": "Send",
+    "componentsPageHeaderOpcPageRequest": "Request",
+    "componentsPageHeaderOpcPageLoan": "Loan",
+    "componentsPageHeaderOpcPageTopup": "Topup",
+ 
+    
+
+    "pageCardContentTitulo": "Your Cards",
+    "pageCardContentSubTitulo": "2 Physical Card, and 1 Virtual Card",
+    "pageCardContentCardPhysicalTitulo": "Physical Card",
+    "pageCardContentCardVirtualTitulo": "Virtual Card",
+    "pageCardContentCardPhysicalTipo": "VISA",
+    "pageCardContentCardPhysicalEstado": "CARD HOLDER",
+    "pageCardContentCardPhysicalExpires": "EXPIRES",
+    "pageCardContentCardConfig": "Card Settings",
+    "pageCardContentCardConfigConectarPagos": "Contactless Payment",
+    "pageCardContentCardConfigPagosEnLinea": "Online Payment",
+    "pageCardContentCardConfigATM": "ATM Withdraws",
+    
+
+
+
+    "pageHomeContentTitulo": "Recent Transactions",
+    "pageHomeContentTituloOpc": "See All",
+    "pageHomeContentTituloBtnOpc": "All",
+    "pageHomeContentTituloEstado1": "Income",
+    "pageHomeContentTituloEstado2": "Expenses",
+    "pageHomeContentHoy": "Today",
+    "pageHomeContentOperacionTitulo": "Payment from user",
+    "pageHomeContentAyer": "YESTERDAY",
+
+
+
+
+    "pageProfileContentTitulo": "Your Information",
+    "pageProfileContentDetalleUbicacion": "Location",
+    "pageProfileContentDetalleCorreo": "Email",
+    "pageProfileContentDetalleTMovil": "Telephon",
+    "pageProfileContentDetalleYo": "About Me"
+}

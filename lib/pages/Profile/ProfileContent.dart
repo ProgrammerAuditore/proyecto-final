@@ -1,3 +1,4 @@
+import 'package:appfoodfast/generated/l10n.dart';
 import 'package:flutter/material.dart';
 
 class ContentPage extends StatelessWidget {
@@ -11,14 +12,14 @@ class ContentPage extends StatelessWidget {
         SizedBox(
           height: 24,
         ),
-        contentTitulo(),
-        contentCard()
+        contentTitulo(context),
+        contentCard(context)
       ],
     );
   }
 }
 
-Container contentTitulo() {
+Container contentTitulo(BuildContext context) {
   return Container(
     child: Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -27,7 +28,7 @@ Container contentTitulo() {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             Text(
-              "Your Information",
+              S.of(context).pageProfileContentTitulo,
               style: TextStyle(
                   fontWeight: FontWeight.w900,
                   fontSize: 24,
@@ -49,7 +50,7 @@ Container contentTitulo() {
   );
 }
 
-Card contentCard() {
+Card contentCard(BuildContext context) {
   return Card(
     child: Container(
       alignment: Alignment.topLeft,
@@ -65,22 +66,22 @@ Card contentCard() {
                     contentPadding:
                         EdgeInsets.symmetric(horizontal: 12, vertical: 4),
                     leading: Icon(Icons.my_location),
-                    title: Text("Location"),
+                    title: Text(S.of(context).pageProfileContentDetalleUbicacion),
                     subtitle: Text("Kathmandu"),
                   ),
                   ListTile(
                     leading: Icon(Icons.email),
-                    title: Text("Email"),
+                    title: Text(S.of(context).pageProfileContentDetalleCorreo),
                     subtitle: Text("sudeptech@gmail.com"),
                   ),
                   ListTile(
                     leading: Icon(Icons.phone),
-                    title: Text("Phone"),
+                    title: Text(S.of(context).pageProfileContentDetalleTMovil),
                     subtitle: Text("99--99876-56"),
                   ),
                   ListTile(
                     leading: Icon(Icons.person),
-                    title: Text("About Me"),
+                    title: Text(S.of(context).pageProfileContentDetalleYo),
                     subtitle: Text(
                         "This is a about me link and you can khow about me in this section."),
                   ),

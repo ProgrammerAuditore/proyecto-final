@@ -1,4 +1,6 @@
 import 'dart:io';
+import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:appfoodfast/generated/l10n.dart';
 import 'package:appfoodfast/pages/Card/CardPage.dart';
 import 'package:appfoodfast/pages/Home/HomePage.dart';
 import 'package:appfoodfast/pages/Profile/ProfilePage.dart';
@@ -15,6 +17,13 @@ class MyApp extends StatelessWidget {
         primarySwatch: MyAppConfig.appColorPrimary,
       ),
       home: WalletApp(),
+      localizationsDelegates: [
+        GlobalMaterialLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate,
+        S.delegate,
+      ],
+      supportedLocales: S.delegate.supportedLocales,
     );
   }
 }

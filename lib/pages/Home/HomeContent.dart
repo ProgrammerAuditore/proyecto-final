@@ -1,3 +1,4 @@
+import 'package:appfoodfast/generated/l10n.dart';
 import 'package:flutter/material.dart';
 
 class ContentPage extends StatelessWidget {
@@ -16,14 +17,14 @@ class ContentPage extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: <Widget>[
                             Text(
-                              "Recent Transactions",
+                              S.of(context).pageHomeContentTitulo,
                               style: TextStyle(
                                   fontWeight: FontWeight.w900,
                                   fontSize: 18,
                                   color: Colors.black),
                             ),
                             Text(
-                              "See all",
+                              S.of(context).pageHomeContentTituloOpc,
                               style: TextStyle(
                                   fontWeight: FontWeight.w700,
                                   fontSize: 16,
@@ -42,7 +43,7 @@ class ContentPage extends StatelessWidget {
                             children: <Widget>[
                               Container(
                                 child: Text(
-                                  "All",
+                                  S.of(context).pageHomeContentTituloBtnOpc,
                                   style: TextStyle(
                                       fontWeight: FontWeight.w700,
                                       fontSize: 14,
@@ -75,7 +76,7 @@ class ContentPage extends StatelessWidget {
                                       width: 8,
                                     ),
                                     Text(
-                                      "Income",
+                                      S.of(context).pageHomeContentTituloEstado1,
                                       style: TextStyle(
                                           fontWeight: FontWeight.w700,
                                           fontSize: 14,
@@ -110,7 +111,7 @@ class ContentPage extends StatelessWidget {
                                       width: 8,
                                     ),
                                     Text(
-                                      "Expenses",
+                                      S.of(context).pageHomeContentTituloEstado2,
                                       style: TextStyle(
                                           fontWeight: FontWeight.w700,
                                           fontSize: 14,
@@ -139,7 +140,7 @@ class ContentPage extends StatelessWidget {
                       ),
                       Container(
                         child: Text(
-                          "TODAY",
+                          S.of(context).pageHomeContentHoy,
                           style: TextStyle(
                               fontSize: 15,
                               fontWeight: FontWeight.w700,
@@ -188,7 +189,7 @@ class ContentPage extends StatelessWidget {
                                             color: Colors.grey[900]),
                                       ),
                                       Text(
-                                        "Payment from user",
+                                        S.of(context).pageHomeContentOperacionTitulo,
                                         style: TextStyle(
                                             fontSize: 15,
                                             fontWeight: FontWeight.w700,
@@ -230,7 +231,7 @@ class ContentPage extends StatelessWidget {
                       ),
                       Container(
                         child: Text(
-                          "YESTERDAY",
+                          S.of(context).pageHomeContentAyer,
                           style: TextStyle(
                               fontSize: 15,
                               fontWeight: FontWeight.w700,
@@ -279,7 +280,7 @@ class ContentPage extends StatelessWidget {
                                             color: Colors.grey[900]),
                                       ),
                                       Text(
-                                        "Payment from user",
+                                        S.of(context).pageHomeContentOperacionTitulo,
                                         style: TextStyle(
                                             fontSize: 15,
                                             fontWeight: FontWeight.w700,

@@ -1,5 +1,7 @@
 import 'package:appfoodfast/components/OptionPage.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:appfoodfast/generated/l10n.dart';
 
 class PageHeader extends StatelessWidget {
   const PageHeader({Key? key}) : super(key: key);
@@ -47,7 +49,7 @@ class PageHeader extends StatelessWidget {
             ],
           ),
           Text(
-            "Available Balance",
+            S.of(context).componentsPageHeaderTitulo,
             style: TextStyle(
                 fontWeight: FontWeight.w700,
                 fontSize: 16,
@@ -59,10 +61,10 @@ class PageHeader extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
-              OptionPage( icono: Icons.date_range, titulo: "Send"),
-              OptionPage( icono: Icons.public, titulo: "Request"),
-              OptionPage( icono: Icons.attach_money, titulo: "Loan"),
-              OptionPage( icono: Icons.trending_down, titulo: "Topup"),
+              OptionPage( icono: Icons.date_range, titulo: S.of(context).componentsPageHeaderOpcPageSend),
+              OptionPage( icono: Icons.public, titulo:  S.of(context).componentsPageHeaderOpcPageRequest),
+              OptionPage( icono: Icons.attach_money, titulo:  S.of(context).componentsPageHeaderOpcPageLoan),
+              OptionPage( icono: Icons.trending_down, titulo:  S.of(context).componentsPageHeaderOpcPageTopup),
             ],
           )
         ],

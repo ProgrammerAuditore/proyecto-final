@@ -22,8 +22,8 @@ class ProfilePage extends StatelessWidget {
 
   BottomNavigationBarItem barItemProfile() {
     return const BottomNavigationBarItem(
-      icon: Icon(Icons.home),
-      label: 'Home',
+      icon: Icon(Icons.person_pin),
+      label: 'Profile',
     );
   }
 }

@@ -3,8 +3,8 @@ import 'package:appfoodfast/pages/Profile/componentes/ProfileHeader.dart';
 import 'package:appfoodfast/pages/Profile/componentes/UserInfo.dart';
 import 'package:flutter/material.dart';
 
-class ProfilePage extends StatelessWidget {
-  const ProfilePage({Key? key}) : super(key: key);
+class ProfileOrigin extends StatelessWidget {
+  const ProfileOrigin({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

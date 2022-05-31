@@ -17,7 +17,7 @@ class ProfileHeader extends StatelessWidget {
                 "\Victor Jesus Maximo Abundio",
                 style: TextStyle(
                     color: Colors.white,
-                    fontSize: 16,
+                    fontSize: 18,
                     fontWeight: FontWeight.w700),
               ),
               Container(
@@ -46,7 +46,7 @@ class ProfileHeader extends StatelessWidget {
             ],
           ),
           Text(
-            "Basic Acount",
+            "Basic Account",
             style: TextStyle(
                 fontWeight: FontWeight.w700,
                 fontSize: 16,

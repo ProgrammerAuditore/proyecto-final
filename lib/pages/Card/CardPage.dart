@@ -1,6 +1,6 @@
 import 'package:appfoodfast/components/PageContent.dart';
 import 'package:appfoodfast/components/PageHeader.dart';
-import 'package:appfoodfast/pages/Card/ContentPage.dart';
+import 'package:appfoodfast/pages/Card/CardContent.dart';
 import 'package:flutter/material.dart';
 
 class CardPage extends StatelessWidget {

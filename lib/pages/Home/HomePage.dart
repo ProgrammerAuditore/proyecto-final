@@ -1,6 +1,6 @@
 import 'package:appfoodfast/components/PageContent.dart';
 import 'package:appfoodfast/components/PageHeader.dart';
-import 'package:appfoodfast/pages/Home/ContentPage.dart';
+import 'package:appfoodfast/pages/Home/HomeContent.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {

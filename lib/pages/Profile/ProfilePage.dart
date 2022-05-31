@@ -1,5 +1,5 @@
 import 'package:appfoodfast/components/PageContent.dart';
-import 'package:appfoodfast/pages/Profile/ContentPage.dart';
+import 'package:appfoodfast/pages/Profile/ProfileContent.dart';
 import 'package:flutter/material.dart';
 
 class ProfilePage extends StatelessWidget {

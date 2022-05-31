@@ -1,3 +1,42 @@
 {
-    "titulo": ""
+    "componentsPageHeaderTitulo": "Saldo disponible",
+    "componentsPageHeaderOpcPageSend": "Expedir",
+    "componentsPageHeaderOpcPageRequest": "Solicitar",
+    "componentsPageHeaderOpcPageLoan": "Préstamo",
+    "componentsPageHeaderOpcPageTopup": "Recargar",
+ 
+    
+
+    "pageCardContentTitulo": "Tus tarjetas",
+    "pageCardContentSubTitulo": "2 tarjetas físicas y 1 tarjeta virtual",
+    "pageCardContentCardPhysicalTitulo": "Tarjeta física",
+    "pageCardContentCardVirtualTitulo": "Tarjeta Virtual",
+    "pageCardContentCardPhysicalTipo": "VISA",
+    "pageCardContentCardPhysicalEstado": "TITULAR",
+    "pageCardContentCardPhysicalExpires": "CADUCIDAD",
+    "pageCardContentCardConfig": "Configuración de la tarjeta",
+    "pageCardContentCardConfigConectarPagos": "Pago sin contacto",
+    "pageCardContentCardConfigPagosEnLinea": "Pago en línea",
+    "pageCardContentCardConfigATM": "Retiro en cajero automático",
+    
+
+
+
+    "pageHomeContentTitulo": "Transacciones recientes",
+    "pageHomeContentTituloOpc": "Ver todo",
+    "pageHomeContentTituloBtnOpc": "todo",
+    "pageHomeContentTituloEstado1": "Activo",
+    "pageHomeContentTituloEstado2": "Pasivo",
+    "pageHomeContentHoy": "HOY",
+    "pageHomeContentOperacionTitulo": "Pago de usuario",
+    "pageHomeContentAyer": "AYER",
+
+
+
+
+    "pageProfileContentTitulo": "Tu información",
+    "pageProfileContentDetalleUbicacion": "Ubicación",
+    "pageProfileContentDetalleCorreo": "Correo electrónico",
+    "pageProfileContentDetalleTMovil": "Teléfono",
+    "pageProfileContentDetalleYo": "Sobre mí"
 }

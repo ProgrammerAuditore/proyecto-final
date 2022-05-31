@@ -21,5 +21,62 @@ class MessageLookup extends MessageLookupByLibrary {
   String get localeName => 'es';
 
   final messages = _notInlinedMessages(_notInlinedMessages);
-  static Map<String, Function> _notInlinedMessages(_) => <String, Function>{};
+  static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "componentsPageHeaderOpcPageLoan":
+            MessageLookupByLibrary.simpleMessage("Préstamo"),
+        "componentsPageHeaderOpcPageRequest":
+            MessageLookupByLibrary.simpleMessage("Solicitar"),
+        "componentsPageHeaderOpcPageSend":
+            MessageLookupByLibrary.simpleMessage("Expedir"),
+        "componentsPageHeaderOpcPageTopup":
+            MessageLookupByLibrary.simpleMessage("Recargar"),
+        "componentsPageHeaderTitulo":
+            MessageLookupByLibrary.simpleMessage("Saldo disponible"),
+        "pageCardContentCardConfig":
+            MessageLookupByLibrary.simpleMessage("Configuración de la tarjeta"),
+        "pageCardContentCardConfigATM":
+            MessageLookupByLibrary.simpleMessage("Retiro en cajero automático"),
+        "pageCardContentCardConfigConectarPagos":
+            MessageLookupByLibrary.simpleMessage("Pago sin contacto"),
+        "pageCardContentCardConfigPagosEnLinea":
+            MessageLookupByLibrary.simpleMessage("Pago en línea"),
+        "pageCardContentCardPhysicalEstado":
+            MessageLookupByLibrary.simpleMessage("TITULAR"),
+        "pageCardContentCardPhysicalExpires":
+            MessageLookupByLibrary.simpleMessage("CADUCIDAD"),
+        "pageCardContentCardPhysicalTipo":
+            MessageLookupByLibrary.simpleMessage("VISA"),
+        "pageCardContentCardPhysicalTitulo":
+            MessageLookupByLibrary.simpleMessage("Tarjeta física"),
+        "pageCardContentCardVirtualTitulo":
+            MessageLookupByLibrary.simpleMessage("Tarjeta Virtual"),
+        "pageCardContentSubTitulo": MessageLookupByLibrary.simpleMessage(
+            "2 tarjetas físicas y 1 tarjeta virtual"),
+        "pageCardContentTitulo":
+            MessageLookupByLibrary.simpleMessage("Tus tarjetas"),
+        "pageHomeContentAyer": MessageLookupByLibrary.simpleMessage("AYER"),
+        "pageHomeContentHoy": MessageLookupByLibrary.simpleMessage("HOY"),
+        "pageHomeContentOperacionTitulo":
+            MessageLookupByLibrary.simpleMessage("Pago de usuario"),
+        "pageHomeContentTitulo":
+            MessageLookupByLibrary.simpleMessage("Transacciones recientes"),
+        "pageHomeContentTituloBtnOpc":
+            MessageLookupByLibrary.simpleMessage("todo"),
+        "pageHomeContentTituloEstado1":
+            MessageLookupByLibrary.simpleMessage("Activo"),
+        "pageHomeContentTituloEstado2":
+            MessageLookupByLibrary.simpleMessage("Pasivo"),
+        "pageHomeContentTituloOpc":
+            MessageLookupByLibrary.simpleMessage("Ver todo"),
+        "pageProfileContentDetalleCorreo":
+            MessageLookupByLibrary.simpleMessage("Correo electrónico"),
+        "pageProfileContentDetalleTMovil":
+            MessageLookupByLibrary.simpleMessage("Teléfono"),
+        "pageProfileContentDetalleUbicacion":
+            MessageLookupByLibrary.simpleMessage("Ubicación"),
+        "pageProfileContentDetalleYo":
+            MessageLookupByLibrary.simpleMessage("Sobre mí"),
+        "pageProfileContentTitulo":
+            MessageLookupByLibrary.simpleMessage("Tu información")
+      };
 }

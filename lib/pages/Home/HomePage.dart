@@ -512,4 +512,11 @@ class HomePage extends StatelessWidget {
       ),
     );
   }
+
+  BottomNavigationBarItem barItemHome() {
+    return const BottomNavigationBarItem(
+      icon: Icon(Icons.home),
+      label: 'Home',
+    );
+  }
 }

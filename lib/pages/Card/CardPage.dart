@@ -387,4 +387,11 @@ class CardPage extends StatelessWidget {
       ),
     );
   }
+
+  BottomNavigationBarItem barItemCard() {
+    return const BottomNavigationBarItem(
+      icon: Icon(Icons.credit_card),
+      label: 'Card',
+    );
+  }
 }

@@ -1,9 +1,6 @@
 import 'dart:io';
-import 'package:appfoodfast/nav_item/About/About.dart';
-import 'package:appfoodfast/nav_item/Home/Home.dart';
-import 'package:appfoodfast/nav_item/Sucursal/Sucursal.dart';
-import 'package:appfoodfast/screens/card_page.dart';
-import 'package:appfoodfast/screens/page_home.dart';
+import 'package:appfoodfast/pages/Card/CardPage.dart';
+import 'package:appfoodfast/pages/Home/HomePage.dart';
 import 'package:flutter/material.dart';
 import 'package:appfoodfast/config.dart';
 
@@ -27,23 +24,29 @@ class WalletApp extends StatefulWidget {
 }
 
 class _WalletAppState extends State<WalletApp> {
-  var screens = [
+  int selectedTab = 0;
+
+  var pages = [
     HomePage(),
     CardPage(),
   ];
 
-  int selectedTab = 0;
+  List<BottomNavigationBarItem> pagesContenido = <BottomNavigationBarItem>[
+    HomePage().barItemHome(),
+    CardPage().barItemCard(),
+  ];
+
+  
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Color.fromRGBO(38, 81, 158, 1),
       bottomNavigationBar: BottomNavigationBar(
-        items: [
-          BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
-          BottomNavigationBarItem(
-              icon: Icon(Icons.credit_card), label: 'Card'),
-        ],
+        currentIndex: selectedTab,
+        selectedItemColor: MyAppConfig.appColorPrimary,
+        unselectedItemColor: MyAppConfig.appColorDisable,
+        items: pagesContenido,
         onTap: (index) {
           setState(() {
             selectedTab = index;
@@ -58,13 +61,17 @@ class _WalletAppState extends State<WalletApp> {
         child: Icon(Icons.add),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
-      body: screens[selectedTab],
+      body: IndexedStack(
+        index: selectedTab,
+        children: pages,
+      )
+      //pages[selectedTab],
     );
   }
 }
 
 // ==== TESTING
-
+/*
 class MyPageMain extends StatefulWidget {
   MyPageMain({Key? key}) : super(key: key);
 
@@ -111,3 +118,4 @@ class _MyPageMainState extends State<MyPageMain> {
     );
   }
 }
+*/

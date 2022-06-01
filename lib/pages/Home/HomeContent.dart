@@ -1,3 +1,4 @@
+import 'package:appfoodfast/config.dart';
 import 'package:appfoodfast/generated/l10n.dart';
 import 'package:flutter/material.dart';
 
@@ -179,12 +180,11 @@ ListView transaccionesHoy(){
   return ListView.builder(
     itemBuilder: (context, index) {
       return Container(
-        margin: EdgeInsets.symmetric(horizontal: 32),
+        margin: EdgeInsets.symmetric(horizontal: 22, vertical: 6),
         padding: EdgeInsets.all(16),
         decoration: BoxDecoration(
-            color: Colors.white,
-            borderRadius:
-                BorderRadius.all(Radius.circular(20))),
+            color: Colors.white
+        ),
         child: Row(
           children: <Widget>[
             Container(
@@ -194,7 +194,7 @@ ListView transaccionesHoy(){
                       Radius.circular(18))),
               child: Icon(
                 Icons.date_range,
-                color: Colors.lightBlue[900],
+                color: MyAppConfig.appColorSecondary,
               ),
               padding: EdgeInsets.all(12),
             ),
@@ -207,7 +207,7 @@ ListView transaccionesHoy(){
                     CrossAxisAlignment.start,
                 children: <Widget>[
                   Text(
-                    "Grocery",
+                    "Payroll",
                     style: TextStyle(
                         fontSize: 18,
                         fontWeight: FontWeight.w700,
@@ -227,14 +227,14 @@ ListView transaccionesHoy(){
               crossAxisAlignment: CrossAxisAlignment.end,
               children: <Widget>[
                 Text(
-                  "+\$50.5",
+                  "+\$2,500.42",
                   style: TextStyle(
                       fontSize: 18,
                       fontWeight: FontWeight.w700,
                       color: Colors.lightGreen),
                 ),
                 Text(
-                  "26 Jan",
+                  "15 Feb",
                   style: TextStyle(
                       fontSize: 15,
                       fontWeight: FontWeight.w700,
@@ -272,7 +272,7 @@ ListView operacionesAyer(){
                       Radius.circular(18))),
               child: Icon(
                 Icons.airplane_ticket_sharp,
-                color: Colors.lightBlue[900],
+                color: MyAppConfig.appColorSecondary,
               ),
               padding: EdgeInsets.all(12),
             ),
@@ -305,7 +305,7 @@ ListView operacionesAyer(){
               crossAxisAlignment: CrossAxisAlignment.end,
               children: <Widget>[
                 Text(
-                  "-\$500.5",
+                  "-\$1840.52",
                   style: TextStyle(
                       fontSize: 18,
                       fontWeight: FontWeight.w700,

@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-        primarySwatch: MyAppConfig.appColorPrimary,
+        primarySwatch: MyAppConfig.appNavColorPrimary,
       ),
       home: WalletApp(),
       localizationsDelegates: [
@@ -53,11 +53,11 @@ class _WalletAppState extends State<WalletApp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 158, 56, 38),
+      backgroundColor: MyAppConfig.appColorPrimary,
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: selectedTab,
-        selectedItemColor: MyAppConfig.appColorPrimary,
-        unselectedItemColor: MyAppConfig.appColorDisable,
+        selectedItemColor: MyAppConfig.appNavColorPrimary,
+        unselectedItemColor: MyAppConfig.appNavColorDisable,
         items: pagesContenido,
         onTap: (index) {
           setState(() {

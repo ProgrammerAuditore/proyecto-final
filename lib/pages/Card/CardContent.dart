@@ -1,3 +1,4 @@
+import 'package:appfoodfast/config.dart';
 import 'package:appfoodfast/generated/l10n.dart';
 import 'package:flutter/material.dart';
 
@@ -38,7 +39,7 @@ class ContentPage extends StatelessWidget {
                         IconButton(
                           icon: Icon(
                             Icons.more_horiz,
-                            color: Colors.lightBlue[900],
+                            color: MyAppConfig.appColorPrimary,
                             size: 20,
                           ),
                           onPressed: (){},
@@ -60,7 +61,7 @@ class ContentPage extends StatelessWidget {
                             style: TextStyle(
                                 fontWeight: FontWeight.w700,
                                 fontSize: 14,
-                                color: Colors.blue),
+                                color: MyAppConfig.appColorSecondary),
                           ),
                           decoration: BoxDecoration(
                               color: Colors.white,
@@ -162,7 +163,7 @@ class ContentPage extends StatelessWidget {
                                     S.of(context).pageCardContentCardPhysicalEstado,
                                     style: TextStyle(
                                         fontSize: 12,
-                                        color: Colors.blue[100],
+                                        color: MyAppConfig.appColorSecondary,
                                         fontWeight: FontWeight.w700,
                                         letterSpacing: 2.0),
                                   ),
@@ -183,7 +184,7 @@ class ContentPage extends StatelessWidget {
                                     S.of(context).pageCardContentCardPhysicalExpires,
                                     style: TextStyle(
                                         fontSize: 12,
-                                        color: Colors.blue[100],
+                                        color: MyAppConfig.appColorSecondary,
                                         fontWeight: FontWeight.w700,
                                         letterSpacing: 2.0),
                                   ),
@@ -204,7 +205,7 @@ class ContentPage extends StatelessWidget {
                                     "CVV",
                                     style: TextStyle(
                                         fontSize: 12,
-                                        color: Colors.blue[100],
+                                        color: MyAppConfig.appColorSecondary,
                                         fontWeight: FontWeight.w700,
                                         letterSpacing: 2.0),
                                   ),
@@ -257,7 +258,7 @@ class ContentPage extends StatelessWidget {
                           children: <Widget>[
                             Icon(
                               Icons.wifi_tethering,size: 20,
-                              color: Colors.lightBlue[900],
+                              color: MyAppConfig.appColorPrimary,
                             ),
                             SizedBox(
                               width: 5,
@@ -267,7 +268,7 @@ class ContentPage extends StatelessWidget {
                               style: TextStyle(
                                   fontWeight: FontWeight.w500,
                                   fontSize: 16,
-                                  color: Colors.blue),
+                                  color: MyAppConfig.appColorSecondary),
                             )
                           ],
                         ),
@@ -301,7 +302,7 @@ class ContentPage extends StatelessWidget {
                           children: <Widget>[
                             Icon(
                               Icons.credit_card,
-                              color: Colors.lightBlue[900],
+                              color: MyAppConfig.appColorPrimary,
                             ),
                             SizedBox(
                               width: 16,
@@ -311,7 +312,7 @@ class ContentPage extends StatelessWidget {
                               style: TextStyle(
                                   fontWeight: FontWeight.w500,
                                   fontSize: 18,
-                                  color: Colors.blue),
+                                  color: MyAppConfig.appColorSecondary),
                             )
                           ],
                         ),
@@ -345,7 +346,7 @@ class ContentPage extends StatelessWidget {
                           children: <Widget>[
                             Icon(
                               Icons.mobile_screen_share,
-                              color: Colors.lightBlue[900],
+                              color: MyAppConfig.appColorPrimary,
                             ),
                             SizedBox(
                               width: 16,
@@ -355,7 +356,7 @@ class ContentPage extends StatelessWidget {
                               style: TextStyle(
                                   fontWeight: FontWeight.w500,
                                   fontSize: 18,
-                                  color: Colors.blue),
+                                  color: MyAppConfig.appColorSecondary),
                             )
                           ],
                         ),

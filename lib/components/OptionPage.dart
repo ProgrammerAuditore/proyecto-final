@@ -1,3 +1,4 @@
+import 'package:appfoodfast/config.dart';
 import 'package:flutter/material.dart';
 
 class OptionPage extends StatelessWidget {
@@ -22,7 +23,7 @@ class OptionPage extends StatelessWidget {
                 borderRadius: BorderRadius.all(Radius.circular(18))),
             child: Icon(
               icono,
-              color: Colors.red[900],
+              color: MyAppConfig.appColorIconsPrimary,
               size: 30,
             ),
             padding: EdgeInsets.all(12),

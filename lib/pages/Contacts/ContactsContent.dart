@@ -90,14 +90,14 @@ ListView operacionesAyer() {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
                 Text(
-                  "Friend",
+                  S.of(context).pageContactsContentTipo,
                   style: TextStyle(
                       fontSize: 18,
                       fontWeight: FontWeight.w700,
                       color: Colors.orange),
                 ),
                 Text(
-                  "Member New",
+                  S.of(context).pageContactsContentEstado,
                   style: TextStyle(
                       fontSize: 15,
                       fontWeight: FontWeight.w700,

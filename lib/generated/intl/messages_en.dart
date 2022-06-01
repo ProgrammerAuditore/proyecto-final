@@ -54,18 +54,12 @@ class MessageLookup extends MessageLookupByLibrary {
             "2 Physical Card, and 1 Virtual Card"),
         "pageCardContentTitulo":
             MessageLookupByLibrary.simpleMessage("Your Cards"),
-        "pageContactsContentAyer": MessageLookupByLibrary.simpleMessage("AYER"),
-        "pageContactsContentHoy": MessageLookupByLibrary.simpleMessage("HOY"),
-        "pageContactsContentOperacionTitulo":
-            MessageLookupByLibrary.simpleMessage("Pago de usuario"),
+        "pageContactsContentEstado":
+            MessageLookupByLibrary.simpleMessage("Member New"),
+        "pageContactsContentTipo":
+            MessageLookupByLibrary.simpleMessage("Friend"),
         "pageContactsContentTitulo":
-            MessageLookupByLibrary.simpleMessage("Transacciones recientes"),
-        "pageContactsContentTituloBtnOpc":
-            MessageLookupByLibrary.simpleMessage("Todo"),
-        "pageContactsContentTituloEstado1":
-            MessageLookupByLibrary.simpleMessage("Activo"),
-        "pageContactsContentTituloEstado2":
-            MessageLookupByLibrary.simpleMessage("Pasivo"),
+            MessageLookupByLibrary.simpleMessage("List Contacts"),
         "pageHomeContentAyer":
             MessageLookupByLibrary.simpleMessage("YESTERDAY"),
         "pageHomeContentHoy": MessageLookupByLibrary.simpleMessage("Today"),

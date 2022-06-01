@@ -31,13 +31,11 @@
     "pageHomeContentOperacionTitulo": "Pago de usuario",
     "pageHomeContentAyer": "AYER",
 
+
+
     "pageContactsContentTitulo": "Lista de contactos",
-    "pageContactsContentTituloBtnOpc": "Todo",
-    "pageContactsContentTituloEstado1": "Activo",
-    "pageContactsContentTituloEstado2": "Pasivo",
-    "pageContactsContentHoy": "HOY",
-    "pageContactsContentOperacionTitulo": "Pago de usuario",
-    "pageContactsContentAyer": "AYER",
+    "pageContactsContentTipo": "Amigo",
+    "pageContactsContentEstado": "Nuevo miembro",
 
 
 

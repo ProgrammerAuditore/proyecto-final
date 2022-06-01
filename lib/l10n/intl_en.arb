@@ -33,13 +33,9 @@
 
 
 
-    "pageContactsContentTitulo": "Transacciones recientes",
-    "pageContactsContentTituloBtnOpc": "Todo",
-    "pageContactsContentTituloEstado1": "Activo",
-    "pageContactsContentTituloEstado2": "Pasivo",
-    "pageContactsContentHoy": "HOY",
-    "pageContactsContentOperacionTitulo": "Pago de usuario",
-    "pageContactsContentAyer": "AYER",
+    "pageContactsContentTitulo": "List Contacts",
+    "pageContactsContentTipo": "Friend",
+    "pageContactsContentEstado": "Member New",
 
 
 

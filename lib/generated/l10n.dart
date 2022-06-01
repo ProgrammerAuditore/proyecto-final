@@ -290,71 +290,31 @@ class S {
     );
   }
 
-  /// `Transacciones recientes`
+  /// `List Contacts`
   String get pageContactsContentTitulo {
     return Intl.message(
-      'Transacciones recientes',
+      'List Contacts',
       name: 'pageContactsContentTitulo',
       desc: '',
       args: [],
     );
   }
 
-  /// `Todo`
-  String get pageContactsContentTituloBtnOpc {
+  /// `Friend`
+  String get pageContactsContentTipo {
     return Intl.message(
-      'Todo',
-      name: 'pageContactsContentTituloBtnOpc',
+      'Friend',
+      name: 'pageContactsContentTipo',
       desc: '',
       args: [],
     );
   }
 
-  /// `Activo`
-  String get pageContactsContentTituloEstado1 {
+  /// `Member New`
+  String get pageContactsContentEstado {
     return Intl.message(
-      'Activo',
-      name: 'pageContactsContentTituloEstado1',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Pasivo`
-  String get pageContactsContentTituloEstado2 {
-    return Intl.message(
-      'Pasivo',
-      name: 'pageContactsContentTituloEstado2',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `HOY`
-  String get pageContactsContentHoy {
-    return Intl.message(
-      'HOY',
-      name: 'pageContactsContentHoy',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Pago de usuario`
-  String get pageContactsContentOperacionTitulo {
-    return Intl.message(
-      'Pago de usuario',
-      name: 'pageContactsContentOperacionTitulo',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `AYER`
-  String get pageContactsContentAyer {
-    return Intl.message(
-      'AYER',
-      name: 'pageContactsContentAyer',
+      'Member New',
+      name: 'pageContactsContentEstado',
       desc: '',
       args: [],
     );

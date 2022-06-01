@@ -300,6 +300,16 @@ class S {
     );
   }
 
+  /// `4 Contacts Available`
+  String get pageContactsContentSubTitulo {
+    return Intl.message(
+      '4 Contacts Available',
+      name: 'pageContactsContentSubTitulo',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Friend`
   String get pageContactsContentTipo {
     return Intl.message(

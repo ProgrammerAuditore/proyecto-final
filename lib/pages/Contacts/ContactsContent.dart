@@ -17,13 +17,25 @@ class ContactsContent extends StatelessWidget {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
-              Text(
-                S.of(context).pageContactsContentTitulo,
-                style: TextStyle(
-                    fontWeight: FontWeight.w900,
-                    fontSize: 18,
-                    color: Colors.black),
-              )
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  Text(
+                    S.of(context).pageContactsContentTitulo,
+                    style: TextStyle(
+                        fontWeight: FontWeight.w900,
+                        fontSize: 24,
+                        color: Colors.black),
+                  ),
+                  Text(
+                    S.of(context).pageContactsContentSubTitulo,
+                    style: TextStyle(
+                        fontWeight: FontWeight.w900,
+                        fontSize: 12,
+                        color: Colors.grey),
+                  ),
+                ],
+              ),
             ],
           ),
           padding: EdgeInsets.symmetric(horizontal: 32),

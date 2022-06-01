@@ -56,6 +56,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Your Cards"),
         "pageContactsContentEstado":
             MessageLookupByLibrary.simpleMessage("Member New"),
+        "pageContactsContentSubTitulo":
+            MessageLookupByLibrary.simpleMessage("4 Contacts Available"),
         "pageContactsContentTipo":
             MessageLookupByLibrary.simpleMessage("Friend"),
         "pageContactsContentTitulo":

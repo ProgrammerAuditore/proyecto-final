@@ -35,7 +35,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "pageCardContentCardConfig":
             MessageLookupByLibrary.simpleMessage("Configuración de la tarjeta"),
         "pageCardContentCardConfigATM":
-            MessageLookupByLibrary.simpleMessage("Retiro en cajero automático"),
+            MessageLookupByLibrary.simpleMessage("Retiro ATM"),
         "pageCardContentCardConfigConectarPagos":
             MessageLookupByLibrary.simpleMessage("Pago sin contacto"),
         "pageCardContentCardConfigPagosEnLinea":
@@ -61,7 +61,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "pageHomeContentTitulo":
             MessageLookupByLibrary.simpleMessage("Transacciones recientes"),
         "pageHomeContentTituloBtnOpc":
-            MessageLookupByLibrary.simpleMessage("todo"),
+            MessageLookupByLibrary.simpleMessage("Todo"),
         "pageHomeContentTituloEstado1":
             MessageLookupByLibrary.simpleMessage("Activo"),
         "pageHomeContentTituloEstado2":

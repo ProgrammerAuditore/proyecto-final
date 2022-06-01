@@ -17,14 +17,14 @@
     "pageCardContentCardConfig": "Configuración de la tarjeta",
     "pageCardContentCardConfigConectarPagos": "Pago sin contacto",
     "pageCardContentCardConfigPagosEnLinea": "Pago en línea",
-    "pageCardContentCardConfigATM": "Retiro en cajero automático",
+    "pageCardContentCardConfigATM": "Retiro ATM",
     
 
 
 
     "pageHomeContentTitulo": "Transacciones recientes",
     "pageHomeContentTituloOpc": "Ver todo",
-    "pageHomeContentTituloBtnOpc": "todo",
+    "pageHomeContentTituloBtnOpc": "Todo",
     "pageHomeContentTituloEstado1": "Activo",
     "pageHomeContentTituloEstado2": "Pasivo",
     "pageHomeContentHoy": "HOY",

@@ -151,81 +151,7 @@ class ContentPage extends StatelessWidget {
                       SizedBox(
                         height: 16,
                       ),
-                      ListView.builder(
-                        itemBuilder: (context, index) {
-                          return Container(
-                            margin: EdgeInsets.symmetric(horizontal: 32),
-                            padding: EdgeInsets.all(16),
-                            decoration: BoxDecoration(
-                                color: Colors.white,
-                                borderRadius:
-                                    BorderRadius.all(Radius.circular(20))),
-                            child: Row(
-                              children: <Widget>[
-                                Container(
-                                  decoration: BoxDecoration(
-                                      color: Colors.grey[100],
-                                      borderRadius: BorderRadius.all(
-                                          Radius.circular(18))),
-                                  child: Icon(
-                                    Icons.date_range,
-                                    color: Colors.lightBlue[900],
-                                  ),
-                                  padding: EdgeInsets.all(12),
-                                ),
-                                SizedBox(
-                                  width: 16,
-                                ),
-                                Expanded(
-                                  child: Column(
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.start,
-                                    children: <Widget>[
-                                      Text(
-                                        "Grocery",
-                                        style: TextStyle(
-                                            fontSize: 18,
-                                            fontWeight: FontWeight.w700,
-                                            color: Colors.grey[900]),
-                                      ),
-                                      Text(
-                                        S.of(context).pageHomeContentOperacionTitulo,
-                                        style: TextStyle(
-                                            fontSize: 15,
-                                            fontWeight: FontWeight.w700,
-                                            color: Colors.grey[500]),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                                Column(
-                                  crossAxisAlignment: CrossAxisAlignment.end,
-                                  children: <Widget>[
-                                    Text(
-                                      "+\$50.5",
-                                      style: TextStyle(
-                                          fontSize: 18,
-                                          fontWeight: FontWeight.w700,
-                                          color: Colors.lightGreen),
-                                    ),
-                                    Text(
-                                      "26 Jan",
-                                      style: TextStyle(
-                                          fontSize: 15,
-                                          fontWeight: FontWeight.w700,
-                                          color: Colors.grey[500]),
-                                    ),
-                                  ],
-                                ),
-                              ],
-                            ),
-                          );
-                        },
-                        shrinkWrap: true,
-                        itemCount: 2,
-                        padding: EdgeInsets.all(0),
-                        controller: ScrollController(keepScrollOffset: false),
-                      ),
+                      transaccionesHoy(),
                       SizedBox(
                         height: 16,
                       ),
@@ -242,82 +168,165 @@ class ContentPage extends StatelessWidget {
                       SizedBox(
                         height: 16,
                       ),
-                      ListView.builder(
-                        itemBuilder: (context, index) {
-                          return Container(
-                            margin: EdgeInsets.symmetric(horizontal: 32),
-                            padding: EdgeInsets.all(16),
-                            decoration: BoxDecoration(
-                                color: Colors.white,
-                                borderRadius:
-                                    BorderRadius.all(Radius.circular(20))),
-                            child: Row(
-                              children: <Widget>[
-                                Container(
-                                  decoration: BoxDecoration(
-                                      color: Colors.grey[100],
-                                      borderRadius: BorderRadius.all(
-                                          Radius.circular(18))),
-                                  child: Icon(
-                                    Icons.directions_car,
-                                    color: Colors.lightBlue[900],
-                                  ),
-                                  padding: EdgeInsets.all(12),
-                                ),
-                                SizedBox(
-                                  width: 16,
-                                ),
-                                Expanded(
-                                  child: Column(
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.start,
-                                    children: <Widget>[
-                                      Text(
-                                        "Petrol",
-                                        style: TextStyle(
-                                            fontSize: 18,
-                                            fontWeight: FontWeight.w700,
-                                            color: Colors.grey[900]),
-                                      ),
-                                      Text(
-                                        S.of(context).pageHomeContentOperacionTitulo,
-                                        style: TextStyle(
-                                            fontSize: 15,
-                                            fontWeight: FontWeight.w700,
-                                            color: Colors.grey[500]),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                                Column(
-                                  crossAxisAlignment: CrossAxisAlignment.end,
-                                  children: <Widget>[
-                                    Text(
-                                      "-\$500.5",
-                                      style: TextStyle(
-                                          fontSize: 18,
-                                          fontWeight: FontWeight.w700,
-                                          color: Colors.orange),
-                                    ),
-                                    Text(
-                                      "26 Jan",
-                                      style: TextStyle(
-                                          fontSize: 15,
-                                          fontWeight: FontWeight.w700,
-                                          color: Colors.grey[500]),
-                                    ),
-                                  ],
-                                ),
-                              ],
-                            ),
-                          );
-                        },
-                        shrinkWrap: true,
-                        itemCount: 2,
-                        padding: EdgeInsets.all(0),
-                        controller: ScrollController(keepScrollOffset: false),
-                      ),
+                      operacionesAyer()
+                      ,
                     ],
                   );
   }
+}
+
+ListView transaccionesHoy(){
+  return ListView.builder(
+    itemBuilder: (context, index) {
+      return Container(
+        margin: EdgeInsets.symmetric(horizontal: 32),
+        padding: EdgeInsets.all(16),
+        decoration: BoxDecoration(
+            color: Colors.white,
+            borderRadius:
+                BorderRadius.all(Radius.circular(20))),
+        child: Row(
+          children: <Widget>[
+            Container(
+              decoration: BoxDecoration(
+                  color: Colors.grey[100],
+                  borderRadius: BorderRadius.all(
+                      Radius.circular(18))),
+              child: Icon(
+                Icons.date_range,
+                color: Colors.lightBlue[900],
+              ),
+              padding: EdgeInsets.all(12),
+            ),
+            SizedBox(
+              width: 16,
+            ),
+            Expanded(
+              child: Column(
+                crossAxisAlignment:
+                    CrossAxisAlignment.start,
+                children: <Widget>[
+                  Text(
+                    "Grocery",
+                    style: TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.w700,
+                        color: Colors.grey[900]),
+                  ),
+                  Text(
+                    S.of(context).pageHomeContentOperacionTitulo,
+                    style: TextStyle(
+                        fontSize: 15,
+                        fontWeight: FontWeight.w700,
+                        color: Colors.grey[500]),
+                  ),
+                ],
+              ),
+            ),
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.end,
+              children: <Widget>[
+                Text(
+                  "+\$50.5",
+                  style: TextStyle(
+                      fontSize: 18,
+                      fontWeight: FontWeight.w700,
+                      color: Colors.lightGreen),
+                ),
+                Text(
+                  "26 Jan",
+                  style: TextStyle(
+                      fontSize: 15,
+                      fontWeight: FontWeight.w700,
+                      color: Colors.grey[500]),
+                ),
+              ],
+            ),
+          ],
+        ),
+      );
+    },
+    shrinkWrap: true,
+    itemCount: 2,
+    padding: EdgeInsets.all(0),
+    controller: ScrollController(keepScrollOffset: false),
+  );
+}
+
+ListView operacionesAyer(){
+  return ListView.builder(
+    itemBuilder: (context, index) {
+      return Container(
+        margin: EdgeInsets.symmetric(horizontal: 22, vertical: 6),
+        padding: EdgeInsets.all(16),
+        decoration: BoxDecoration(
+            color: Colors.white,
+            
+        ),
+        child: Row(
+          children: <Widget>[
+            Container(
+              decoration: BoxDecoration(
+                  color: Colors.grey[100],
+                  borderRadius: BorderRadius.all(
+                      Radius.circular(18))),
+              child: Icon(
+                Icons.airplane_ticket_sharp,
+                color: Colors.lightBlue[900],
+              ),
+              padding: EdgeInsets.all(12),
+            ),
+            SizedBox(
+              width: 16,
+            ),
+            Expanded(
+              child: Column(
+                crossAxisAlignment:
+                    CrossAxisAlignment.start,
+                children: <Widget>[
+                  Text(
+                    "Max Airplane",
+                    style: TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.w700,
+                        color: Colors.grey[900]),
+                  ),
+                  Text(
+                    S.of(context).pageHomeContentOperacionTitulo,
+                    style: TextStyle(
+                        fontSize: 15,
+                        fontWeight: FontWeight.w700,
+                        color: Colors.grey[500]),
+                  ),
+                ],
+              ),
+            ),
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.end,
+              children: <Widget>[
+                Text(
+                  "-\$500.5",
+                  style: TextStyle(
+                      fontSize: 18,
+                      fontWeight: FontWeight.w700,
+                      color: Colors.orange),
+                ),
+                Text(
+                  "26 Jan",
+                  style: TextStyle(
+                      fontSize: 15,
+                      fontWeight: FontWeight.w700,
+                      color: Colors.grey[500]),
+                ),
+              ],
+            ),
+          ],
+        ),
+      );
+    },
+    shrinkWrap: true,
+    itemCount: 4,
+    padding: EdgeInsets.all(0),
+    controller: ScrollController(keepScrollOffset: false),
+  );
 }

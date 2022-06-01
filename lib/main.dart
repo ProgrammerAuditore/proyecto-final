@@ -53,7 +53,7 @@ class _WalletAppState extends State<WalletApp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromRGBO(38, 81, 158, 1),
+      backgroundColor: Color.fromARGB(255, 158, 56, 38),
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: selectedTab,
         selectedItemColor: MyAppConfig.appColorPrimary,

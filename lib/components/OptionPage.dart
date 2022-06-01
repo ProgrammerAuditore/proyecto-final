@@ -22,7 +22,7 @@ class OptionPage extends StatelessWidget {
                 borderRadius: BorderRadius.all(Radius.circular(18))),
             child: Icon(
               icono,
-              color: Colors.blue[900],
+              color: Colors.red[900],
               size: 30,
             ),
             padding: EdgeInsets.all(12),

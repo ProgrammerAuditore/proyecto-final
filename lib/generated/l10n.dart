@@ -290,6 +290,76 @@ class S {
     );
   }
 
+  /// `Transacciones recientes`
+  String get pageContactsContentTitulo {
+    return Intl.message(
+      'Transacciones recientes',
+      name: 'pageContactsContentTitulo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Todo`
+  String get pageContactsContentTituloBtnOpc {
+    return Intl.message(
+      'Todo',
+      name: 'pageContactsContentTituloBtnOpc',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Activo`
+  String get pageContactsContentTituloEstado1 {
+    return Intl.message(
+      'Activo',
+      name: 'pageContactsContentTituloEstado1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Pasivo`
+  String get pageContactsContentTituloEstado2 {
+    return Intl.message(
+      'Pasivo',
+      name: 'pageContactsContentTituloEstado2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `HOY`
+  String get pageContactsContentHoy {
+    return Intl.message(
+      'HOY',
+      name: 'pageContactsContentHoy',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Pago de usuario`
+  String get pageContactsContentOperacionTitulo {
+    return Intl.message(
+      'Pago de usuario',
+      name: 'pageContactsContentOperacionTitulo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `AYER`
+  String get pageContactsContentAyer {
+    return Intl.message(
+      'AYER',
+      name: 'pageContactsContentAyer',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Basic Account`
   String get pageProfileContentCuenta {
     return Intl.message(

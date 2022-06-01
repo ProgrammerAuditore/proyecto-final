@@ -33,6 +33,15 @@
 
 
 
+    "pageContactsContentTitulo": "Transacciones recientes",
+    "pageContactsContentTituloBtnOpc": "Todo",
+    "pageContactsContentTituloEstado1": "Activo",
+    "pageContactsContentTituloEstado2": "Pasivo",
+    "pageContactsContentHoy": "HOY",
+    "pageContactsContentOperacionTitulo": "Pago de usuario",
+    "pageContactsContentAyer": "AYER",
+
+
 
     "pageProfileContentCuenta": "Basic Account",
     "pageProfileContentTitulo": "Your Information",

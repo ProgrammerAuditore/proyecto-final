@@ -1,4 +1,6 @@
 import 'dart:io';
+import 'package:appfoodfast/pages/Contacts/ContactsContent.dart';
+import 'package:appfoodfast/pages/Contacts/ContactsPage.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:appfoodfast/generated/l10n.dart';
 import 'package:appfoodfast/pages/Card/CardPage.dart';
@@ -39,12 +41,14 @@ class _WalletAppState extends State<WalletApp> {
   var pages = [
     HomePage(),
     CardPage(),
+    ContactsPage(),
     ProfilePage()
   ];
 
   List<BottomNavigationBarItem> pagesContenido = <BottomNavigationBarItem>[
     HomePage().barItemHome(),
     CardPage().barItemCard(),
+    ContactsPage().barItemContacts(),
     ProfilePage().barItemProfile()
   ];
 

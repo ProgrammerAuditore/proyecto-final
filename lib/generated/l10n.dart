@@ -330,6 +330,36 @@ class S {
     );
   }
 
+  /// `Exit`
+  String get pageContactsContentSalir {
+    return Intl.message(
+      'Exit',
+      name: 'pageContactsContentSalir',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Help`
+  String get pageContactsContentAyuda {
+    return Intl.message(
+      'Help',
+      name: 'pageContactsContentAyuda',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Assistence`
+  String get pageContactsContentAsistencia {
+    return Intl.message(
+      'Assistence',
+      name: 'pageContactsContentAsistencia',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Basic Account`
   String get pageProfileContentCuenta {
     return Intl.message(

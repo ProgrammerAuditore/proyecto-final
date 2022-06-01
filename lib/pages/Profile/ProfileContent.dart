@@ -52,6 +52,7 @@ Container contentTitulo(BuildContext context) {
 
 Card contentCard(BuildContext context) {
   return Card(
+    margin: EdgeInsets.all(15),
     child: Container(
       alignment: Alignment.topLeft,
       padding: EdgeInsets.all(15),

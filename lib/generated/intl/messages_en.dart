@@ -54,8 +54,14 @@ class MessageLookup extends MessageLookupByLibrary {
             "2 Physical Card, and 1 Virtual Card"),
         "pageCardContentTitulo":
             MessageLookupByLibrary.simpleMessage("Your Cards"),
+        "pageContactsContentAsistencia":
+            MessageLookupByLibrary.simpleMessage("Assistence"),
+        "pageContactsContentAyuda":
+            MessageLookupByLibrary.simpleMessage("Help"),
         "pageContactsContentEstado":
             MessageLookupByLibrary.simpleMessage("Member New"),
+        "pageContactsContentSalir":
+            MessageLookupByLibrary.simpleMessage("Exit"),
         "pageContactsContentSubTitulo":
             MessageLookupByLibrary.simpleMessage("4 Contacts Available"),
         "pageContactsContentTipo":

@@ -1,4 +1,6 @@
+import 'package:appfoodfast/generated/l10n.dart';
 import 'package:flutter/material.dart';
+
 
 class ProfileHeader extends StatelessWidget {
   const ProfileHeader({Key? key}) : super(key: key);
@@ -43,7 +45,7 @@ class ProfileHeader extends StatelessWidget {
             ],
           ),
           Text(
-            "Basic Account",
+            S.of(context).pageProfileContentCuenta,
             style: TextStyle(
                 fontWeight: FontWeight.w700,
                 fontSize: 16,

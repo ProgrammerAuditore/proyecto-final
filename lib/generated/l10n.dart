@@ -290,6 +290,16 @@ class S {
     );
   }
 
+  /// `Basic Account`
+  String get pageProfileContentCuenta {
+    return Intl.message(
+      'Basic Account',
+      name: 'pageProfileContentCuenta',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Your Information`
   String get pageProfileContentTitulo {
     return Intl.message(

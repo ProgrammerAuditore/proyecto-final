@@ -68,6 +68,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Pasivo"),
         "pageHomeContentTituloOpc":
             MessageLookupByLibrary.simpleMessage("Ver todo"),
+        "pageProfileContentCuenta":
+            MessageLookupByLibrary.simpleMessage("Cuenta básica"),
         "pageProfileContentDetalleCorreo":
             MessageLookupByLibrary.simpleMessage("Correo electrónico"),
         "pageProfileContentDetalleTMovil":

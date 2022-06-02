@@ -43,18 +43,18 @@ class ContactsContent extends StatelessWidget {
         SizedBox(
           height: 16,
         ),
-        operacionesAyer(),
+        listaContactos(),
       ],
     );
   }
 }
 
-ListView operacionesAyer() {
+ListView listaContactos() {
   List<String> names = [
-    "Emma Soft",
-    "Louis Matt",
-    "Karla Seif",
-    "Carlos Audit"
+    "Carlos Guerrero",
+    "Luis Mateos",
+    "Alejandro de la parra",
+    "Manuel Herrera"
   ];
 
   return ListView.builder(

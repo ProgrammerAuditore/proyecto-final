@@ -17,7 +17,7 @@ class PageHeader extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
               Text(
-                "\$2589.90",
+                "\$5000.84",
                 style: TextStyle(
                     color: Colors.white,
                     fontSize: 36,

@@ -16,7 +16,7 @@ class ProfileHeader extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
               Text(
-                "\Amain seif",
+                "\Victor J. Maximo",
                 style: TextStyle(
                     color: Colors.white,
                     fontSize: 20,

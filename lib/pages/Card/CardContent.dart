@@ -1,5 +1,5 @@
-import 'package:appfoodfast/config.dart';
-import 'package:appfoodfast/generated/l10n.dart';
+import 'package:appmax/config.dart';
+import 'package:appmax/generated/l10n.dart';
 import 'package:flutter/material.dart';
 
 class ContentPage extends StatelessWidget {

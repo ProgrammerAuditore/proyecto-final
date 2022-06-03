@@ -1,7 +1,7 @@
-import 'package:appfoodfast/components/OptionPage.dart';
+import 'package:appmax/components/OptionPage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:appfoodfast/generated/l10n.dart';
+import 'package:appmax/generated/l10n.dart';
 
 class PageHeader extends StatelessWidget {
   const PageHeader({Key? key}) : super(key: key);

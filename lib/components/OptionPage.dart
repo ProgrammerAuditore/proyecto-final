@@ -1,4 +1,4 @@
-import 'package:appfoodfast/config.dart';
+import 'package:appmax/config.dart';
 import 'package:flutter/material.dart';
 
 class OptionPage extends StatelessWidget {

@@ -1,6 +1,6 @@
-import 'package:appfoodfast/components/PageContent.dart';
-import 'package:appfoodfast/pages/Profile/ProfileContent.dart';
-import 'package:appfoodfast/pages/Profile/ProfileHeader.dart';
+import 'package:appmax/components/PageContent.dart';
+import 'package:appmax/pages/Profile/ProfileContent.dart';
+import 'package:appmax/pages/Profile/ProfileHeader.dart';
 import 'package:flutter/material.dart';
 
 class ProfilePage extends StatelessWidget {

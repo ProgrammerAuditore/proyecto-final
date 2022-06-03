@@ -1,13 +1,13 @@
 import 'dart:io';
-import 'package:appfoodfast/pages/Contacts/ContactsContent.dart';
-import 'package:appfoodfast/pages/Contacts/ContactsPage.dart';
+import 'package:appmax/pages/Contacts/ContactsContent.dart';
+import 'package:appmax/pages/Contacts/ContactsPage.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:appfoodfast/generated/l10n.dart';
-import 'package:appfoodfast/pages/Card/CardPage.dart';
-import 'package:appfoodfast/pages/Home/HomePage.dart';
-import 'package:appfoodfast/pages/Profile/ProfilePage.dart';
+import 'package:appmax/generated/l10n.dart';
+import 'package:appmax/pages/Card/CardPage.dart';
+import 'package:appmax/pages/Home/HomePage.dart';
+import 'package:appmax/pages/Profile/ProfilePage.dart';
 import 'package:flutter/material.dart';
-import 'package:appfoodfast/config.dart';
+import 'package:appmax/config.dart';
 
 void main() => runApp(MyApp());
 

@@ -1,3 +1,4 @@
+import 'package:appmax/components/CarouselDemo.dart';
 import 'package:appmax/config.dart';
 import 'package:appmax/generated/l10n.dart';
 import 'package:flutter/material.dart';
@@ -10,6 +11,10 @@ class ContentPage extends StatelessWidget {
     return Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
+                  SizedBox(
+                    height: 24,
+                  ),
+                  CarouselDemo(),
                   SizedBox(
                     height: 24,
                   ),

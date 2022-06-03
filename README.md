@@ -1,4 +1,4 @@
-# appfoodfast
+# appmax
 
 A new Flutter project.
 

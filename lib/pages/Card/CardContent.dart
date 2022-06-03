@@ -1,4 +1,4 @@
-import 'package:appmax/components/CarouselDemo.dart';
+import 'package:appmax/components/AdsContent.dart';
 import 'package:appmax/config.dart';
 import 'package:appmax/generated/l10n.dart';
 import 'package:flutter/material.dart';
@@ -52,7 +52,7 @@ class ContentPage extends StatelessWidget {
                   SizedBox(
                     height: 16,
                   ),
-                  CarouselDemo(),
+                  AdsContent(),
                   SizedBox(
                     height: 16,
                   ),

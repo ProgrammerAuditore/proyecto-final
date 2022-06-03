@@ -1,3 +1,4 @@
+import 'package:appmax/components/AdsContent.dart';
 import 'package:appmax/config.dart';
 import 'package:appmax/generated/l10n.dart';
 import 'package:flutter/material.dart';
@@ -35,6 +36,10 @@ class ContentPage extends StatelessWidget {
                         ),
                         padding: EdgeInsets.symmetric(horizontal: 32),
                       ),
+                      SizedBox(
+                        height: 24,
+                      ),
+                      AdsContent(),
                       SizedBox(
                         height: 24,
                       ),

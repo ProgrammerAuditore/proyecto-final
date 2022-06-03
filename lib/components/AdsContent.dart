@@ -1,7 +1,7 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 
-class CarouselDemo extends StatelessWidget {
+class AdsContent extends StatelessWidget {
   CarouselController buttonCarouselController = CarouselController();
   final imagenes = [
     "assets/ads/pub1.jpg",

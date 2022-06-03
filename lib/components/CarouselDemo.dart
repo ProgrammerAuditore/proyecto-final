@@ -4,7 +4,10 @@ import 'package:flutter/material.dart';
 class CarouselDemo extends StatelessWidget {
   CarouselController buttonCarouselController = CarouselController();
   final imagenes = [
-    "assets/profile.jpg"];
+    "assets/ads/pub1.jpg",
+    "assets/ads/pub2.jpg",
+    "assets/ads/pub3.jpg"
+    ];
 
   @override
   Widget build(BuildContext context) => Column(children: <Widget>[
@@ -26,17 +29,14 @@ class CarouselDemo extends StatelessWidget {
           }).toList(),
           carouselController: buttonCarouselController,
           options: CarouselOptions(
-            autoPlay: false,
+            autoPlay: true,
             enlargeCenterPage: true,
             viewportFraction: 0.9,
+            autoPlayInterval: Duration(seconds: 3),
+            autoPlayAnimationDuration: Duration(milliseconds: 800),
             aspectRatio: 2.0,
             initialPage: 2,
           ),
-        ),
-        RaisedButton(
-          onPressed: () => buttonCarouselController.nextPage(
-              duration: Duration(milliseconds: 300), curve: Curves.linear),
-          child: Text('→'),
         )
       ]);
 }

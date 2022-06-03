@@ -14,10 +14,6 @@ class ContentPage extends StatelessWidget {
                   SizedBox(
                     height: 24,
                   ),
-                  CarouselDemo(),
-                  SizedBox(
-                    height: 24,
-                  ),
                   Container(
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -53,6 +49,10 @@ class ContentPage extends StatelessWidget {
                     ),
                     padding: EdgeInsets.symmetric(horizontal: 20),
                   ),
+                  SizedBox(
+                    height: 16,
+                  ),
+                  CarouselDemo(),
                   SizedBox(
                     height: 16,
                   ),
